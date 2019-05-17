@@ -1,0 +1,146 @@
+body {
+  font-family: $font-family;
+  margin: $zero;
+}
+
+#image {
+  background-image: url("img/slide-iddink1.jpg");
+  z-index: -1;
+  height: 600px;
+  margin-top: -30px;
+}
+
+#image p{
+  color: $white;
+  position: absolute;
+  top: 30%;
+  left: 20%;
+}
+
+#image input{
+  color: $white;
+  border-color: $white;
+  background-color: $mainColor;
+  padding: 15px 25px;
+  border-radius: 10px;
+  position: absolute;
+  top: 70%;
+  left: 40%;
+}
+
+#image img{
+  position: absolute;
+  left: 85%;
+  top: 40%;
+}
+
+#tekst {
+  text-align: center;
+}
+
+#tekst h2{
+  color: $mainColor;
+}
+
+#image2 #buttons {
+  position: absolute;
+  left: 40%;
+  text-align: center;
+  display: $grid;
+  @include grid-t-c(1fr 1fr);
+  width: 100px;
+  margin: 20px;
+}
+
+#buttons input{
+  padding: 10px;
+  border: $none;
+  width: $auto;
+}
+
+#buttons .blue{
+  border-radius: 10px;
+  color: $white;
+  background-color: $mainColor;
+}
+
+#buttons .white{
+  color: $mainColor;
+  background-color: $white;
+}
+
+#image2 img {
+  position: absolute;
+  left: 870px;
+  top: 830px;
+}
+
+#image2 {
+  height: 150px;
+}
+
+#images {
+  display: $grid;
+  @include grid-t-c(1fr 1fr 1fr 1fr);
+  margin-left: 150px;
+}
+
+#images .image a{
+  color: $mainColor;
+  text-decoration: $none;
+}
+
+#images .image h4{
+  color: $mainColor;
+}
+
+#ipad {
+  background-color: #85BADF;
+  display: $grid;
+  @include grid-t-c(1fr 1fr);
+  color: $white;
+  padding: 60px 150px;
+}
+
+#ipad #links input{
+  border-color: $white;
+  background-color: $mainColor;
+  color: $white;
+  border-radius: 5px;
+  padding: 10px 30px;
+  margin-top: 40px;
+}
+
+#ipad #links img{
+  position: absolute;
+  left: 470px;
+  top: 1445px;
+}
+
+#ipad img {
+  margin-left: 50px;
+}
+
+#contact {
+  text-align: center;
+}
+
+#contact h2{
+  color: #0073CF;
+}
+
+#contact input {
+  border: none;
+  background-color: #0073CF;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 30px;
+  margin-right: 40px;
+
+}
+
+#contact img {
+  position: absolute;
+  left: 1200px;
+  top: 1900px;
+}

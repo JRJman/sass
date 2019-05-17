@@ -1,0 +1,16 @@
+#head {
+  display: $grid;
+  @include grid-t-c(1fr 1fr 1fr 1fr);
+  height: 110px;
+  background-color: $white;
+}
+
+#search {
+  padding-top: 20px;
+  grid-column: 4/4;
+}
+
+select {
+  color: $mainColor;
+  border: $none;
+}

@@ -1,0 +1,217 @@
+#head {
+  display: grid;
+  -webkit-grid-template-columns: 1fr 1fr 1fr 1fr;
+  -moz-grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-template-columns: 1fr 1fr 1fr 1fr;
+  -o-grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  height: 110px;
+  background-color: white;
+}
+
+#search {
+  padding-top: 20px;
+  grid-column: 4/4;
+}
+
+select {
+  color: #0073cf;
+  border: none;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+}
+
+#image {
+  background-image: url("img/slide-iddink1.jpg");
+  z-index: -1;
+  height: 600px;
+  margin-top: -30px;
+}
+
+#image p {
+  color: white;
+  position: absolute;
+  top: 30%;
+  left: 20%;
+}
+
+#image input {
+  color: white;
+  border-color: white;
+  background-color: #0073cf;
+  padding: 15px 25px;
+  border-radius: 10px;
+  position: absolute;
+  top: 70%;
+  left: 40%;
+}
+
+#image img {
+  position: absolute;
+  left: 85%;
+  top: 40%;
+}
+
+#tekst {
+  text-align: center;
+}
+
+#tekst h2 {
+  color: #0073cf;
+}
+
+#image2 #buttons {
+  position: absolute;
+  left: 40%;
+  text-align: center;
+  display: grid;
+  -webkit-grid-template-columns: 1fr 1fr;
+  -moz-grid-template-columns: 1fr 1fr;
+  -ms-grid-template-columns: 1fr 1fr;
+  -o-grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  width: 100px;
+  margin: 20px;
+}
+
+#buttons input {
+  padding: 10px;
+  border: none;
+  width: auto;
+}
+
+#buttons .blue {
+  border-radius: 10px;
+  color: white;
+  background-color: #0073cf;
+}
+
+#buttons .white {
+  color: #0073cf;
+  background-color: white;
+}
+
+#image2 img {
+  position: absolute;
+  left: 870px;
+  top: 830px;
+}
+
+#image2 {
+  height: 150px;
+}
+
+#images {
+  display: grid;
+  -webkit-grid-template-columns: 1fr 1fr 1fr 1fr;
+  -moz-grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-template-columns: 1fr 1fr 1fr 1fr;
+  -o-grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-left: 150px;
+}
+
+#images .image a {
+  color: #0073cf;
+  text-decoration: none;
+}
+
+#images .image h4 {
+  color: #0073cf;
+}
+
+#ipad {
+  background-color: #85BADF;
+  display: grid;
+  -webkit-grid-template-columns: 1fr 1fr;
+  -moz-grid-template-columns: 1fr 1fr;
+  -ms-grid-template-columns: 1fr 1fr;
+  -o-grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  color: white;
+  padding: 60px 150px;
+}
+
+#ipad #links input {
+  border-color: white;
+  background-color: #0073cf;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 30px;
+  margin-top: 40px;
+}
+
+#ipad #links img {
+  position: absolute;
+  left: 470px;
+  top: 1445px;
+}
+
+#ipad img {
+  margin-left: 50px;
+}
+
+#contact {
+  text-align: center;
+}
+
+#contact h2 {
+  color: #0073CF;
+}
+
+#contact input {
+  border: none;
+  background-color: #0073CF;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 30px;
+  margin-right: 40px;
+}
+
+#contact img {
+  position: absolute;
+  left: 1200px;
+  top: 1900px;
+}
+
+#footer {
+  background-color: #0073cf;
+  color: white;
+  display: grid;
+  -webkit-grid-template-columns: 1fr 1fr;
+  -moz-grid-template-columns: 1fr 1fr;
+  -ms-grid-template-columns: 1fr 1fr;
+  -o-grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -webkit-grid-template-rows: 1fr 1fr;
+  -moz-grid-template-rows: 1fr 1fr;
+  -ms-grid-template-rows: 1fr 1fr;
+  -o-grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin-top: 30px;
+  padding: 70px 130px;
+}
+
+#footer .buttons input {
+  padding: 60px 25px;
+  margin-top: -30px;
+  background-color: #0073cf;
+  border: none;
+  color: white;
+}
+
+#footer #groep p {
+  margin-left: 410px;
+}
+
+#validatie img {
+  height: 1em;
+  width: auto;
+  border: 0;
+  margin: 0 0.3em;
+}
+
+/*# sourceMappingURL=style.css.map */
